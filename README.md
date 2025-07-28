@@ -6,7 +6,6 @@ This project implements a **Loan Approval Classifier** using a **Retrieval-Augme
 
 ## 📂 Dataset
 
-> 📝 **Replace with your Kaggle link here:**
 > [Kaggle Dataset Link](https://www.kaggle.com/datasets/sonalisingh1411/loan-approval-prediction?select=Training+Dataset.csv)]
 
 - `Training Dataset.csv` – historical loan applications with status (`Loan_Status`)
