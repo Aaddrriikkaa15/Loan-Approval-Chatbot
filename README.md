@@ -56,3 +56,39 @@ We use **RAG-style classification**:
 4. **Output : **
    A CSV file named Final_Submission.csv with predictions (y / n)
 
+
+📊 Sample Output (Final_Submission.csv)
+Loan_ID	Answer
+LP001002	y
+LP001003	n
+LP001005	y
+
+✅ Future Improvements
+🔧 Fine-tune a lightweight classifier after retrieval
+
+💬 Add a Streamlit-based Q&A chatbot interface
+
+📈 Evaluate on validation split if available
+
+🙌 Credits
+Hugging Face Transformers & Sentence-Transformers
+
+FAISS by Facebook AI
+
+Inspired by Retrieval-Augmented Generation (RAG) techniques
+
+📜 License
+This project is licensed under the MIT License.
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ Bonus: `requirements.txt` (for reference)
+
+```txt
+pandas
+sentence-transformers
+faiss-cpu
